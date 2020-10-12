@@ -2,7 +2,7 @@
         <div class="login">
             <div class="login-main">
                 <div class="main">
-                    <h1>LOGIN TO TEAM ICON</h1>
+                    <h1>DANH NHAP TEAM ICON</h1>
                 </div>
                 <div v-if="error">{{error}}</div>
                 <div class="main-one">
