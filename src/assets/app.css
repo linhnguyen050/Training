@@ -1,0 +1,393 @@
+body {
+    margin: 0px;
+    background-color: #F0F4F7;
+}
+#app {
+    height: 100%;
+}
+.head {
+    width: 100%;
+    height: 900px;
+    background-color: #F0F4F7;
+    
+}
+.header {
+    background-color: #3498db;
+    height: 60px;
+}
+.layout {
+    display: flex;
+}
+.left {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    align-items: center ;
+}
+.left-one {
+    width: 5%;
+}
+.left-two {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+
+}
+.left-two img {
+    border-radius: 50%;
+    position: absolute;
+    right: 12px;
+    top: 13px;
+}
+.left-one svg {
+    font-size: 27px;
+}
+.left-two svg {
+    padding: 20px;
+    font-size: 27px;
+}
+.left-two span {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 15px;
+}
+
+.left-main {
+    height: 600px;
+    background-color: #ffffff;
+}
+.left-main ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+}
+.left-main li {
+    padding-top: 60px;
+    padding-top: 60px;
+    display: grid;
+    justify-content: center;
+}
+
+.left-main li:hover {
+    background: #3498db;
+
+    justify-content: center;
+}
+.left-main li a:hover {
+    background:  #3498db;
+    
+}
+.left-main li a {
+    text-decoration: none;
+    color: #34495e;
+}
+    
+
+.LayoutDefault__main {
+    width: 70%;
+    background-color: #f5f6f8;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.default1 {
+    width: 93%;
+    display: table;
+    border-bottom: 1px solid #D6E3EC;
+    height: 127px;
+
+
+}
+.default1 button  {
+    position: relative;
+    top: -7px;
+    left: -103px;
+}
+.default1 button {
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -54px;
+    left: 1274px;
+}
+.default2 button {
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -44px;
+    left: 1211px;
+}
+.default2 button svg {
+    color: #fff ;
+    background-color: #3598db;
+}
+.default1 button svg {
+    color: #fff ;
+    background-color: #3598db;
+}
+.default-one {
+    display: grid;
+    justify-content: flex-start;
+    position: relative;
+    
+}
+.default-one  input  {
+    height: 40px;
+    padding: 0px;
+    width: 1198px;
+    border: none;
+
+}
+
+.default-one textarea {
+    height: 60px;
+    padding: 0px;
+    width: 103%;
+    display: flex;
+    border: none;
+    height: 136px;
+
+}
+.default-one form {
+    display: flex;
+    margin-right: 40px;
+}
+.default-one p {
+    color: red;
+    font-size: 13px; 
+    margin: 0px;
+}
+.default1-one p {
+    color: red;
+    font-size: 13px; 
+    margin: 0px;
+}
+.default-one-input {
+    width: 99%;
+    display: flex;
+    margin: 4px 0px;
+
+}
+.default1-one-input input {
+    width: 99%;
+    border: none;
+    height: 40px;
+ 
+}
+.default1-one-a textarea {
+    margin: 10px 0px;
+    width: 99%;
+    border: none;
+    height: 140px;
+ 
+}
+
+.layout-two {
+    margin-right: 50px;
+}
+
+
+.main1 {
+    display: flex;
+    width: 400px;
+}
+.component  {
+    margin: 30px 0px;
+}
+.form-component {
+    align-items: center;
+    display: grid;
+    justify-content: start;
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    margin: 30px 0px;
+    padding: 15px 15px;
+
+  
+}
+.form-component span{
+    background-color: #fff;
+    display: flex;
+    margin: 0px;
+    border-radius: 50px;
+    color: #3598db;
+    font-size: 18px;
+    font-weight: 400;
+    width: 70%;
+
+
+}
+
+.form-component p {
+    display: flex;
+    border-radius: 41px;
+    color: #8ea1b4;
+    font-size: 18px;
+    height: 300px;
+}
+h3 {
+    margin: 0px;
+    height:45px;
+    padding: 18px 0px;
+    color: #34495e;
+}
+.main1-two img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: grid;
+    padding: 18px 0px;
+}
+.main1-one li {
+    list-style: none;
+    
+}
+.group {
+    display: flex;
+    align-items: center;
+}
+.tab-one {
+    width: 600px;
+    height: 900px;
+    background-color: red;
+}
+.slot1{
+    width: 400px;
+    height: 600px;
+    background-color: #f5f6f8;
+}
+
+.right-main {
+    width: 300px;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+svg:not(:root).svg-inline--fa {
+    font-size: 30px;
+}
+
+.main-post {
+    display: flex;
+}
+.main-post-img span {
+    height: 300px;
+}
+.main-post-img img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: grid;
+    margin-bottom: 18px;
+
+}
+.defaultone input {
+    display: flex;
+    margin: 5px 0px;
+    width: 93%;
+    border: none;
+    height: 40px;
+
+}
+.defaultone  textarea {
+    width: 93%;
+    border: none;
+    margin: 10px 0px;
+    display: flex;
+    height: 144px;
+
+
+}
+.defaultone  select {
+    margin: 5px 0px;
+    width: 93%;
+    border: none;
+    display: flex;
+    height: 40px;
+
+}
+.defaultone  p {
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+}
+.gruop-input svg path {
+    font-size: 12px;
+}
+.default1 button svg {
+    position: absolute;
+    top: 0px;
+    right: 48px;
+}
+
+.login {
+    width: 30%;
+    height: 600px;
+    background-color: #ffffff;
+    margin: 0px auto;
+}
+
+.main  {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #3AB397;
+    
+}
+.main-one {
+    width: 300px;
+    margin: 0px auto;
+}
+.gruop-input {
+    width: 350px;
+    height: 40px;
+    background-color: #F4F8F7;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.main-one p {
+    margin: 0px;
+    color: red;
+}
+.main-two a {
+    text-decoration: none;
+    color: #616161;
+    display: flex;
+    justify-content: flex-end;
+    width: 480px;
+    font-size: 14px;
+
+}
+.main-1 h5 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.main-bar button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: #3AB397;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 30px ;
+    font-weight: 700;
+}
+.gruop-input svg {
+    padding: 20px;
+}
+.gruop-input input {
+    height: 40px;
+    border: none;
+    background-color: #F4F8F7;
+}
+
